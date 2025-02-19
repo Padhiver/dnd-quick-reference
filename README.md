@@ -1,5 +1,5 @@
 # D&D - Quick Reference
-Adds a customizable menu that displays a Quick Reference to the various D&D 2024 rules.
+Adds a customizable menu that displays a Quick Reference to the various D&D rules.
 
 https://github.com/user-attachments/assets/ba542673-8eed-4211-a270-2204b05db120
 
