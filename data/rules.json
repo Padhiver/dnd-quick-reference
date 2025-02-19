@@ -193,8 +193,7 @@
                 "reference": "DNDRulesActionUnarmedStrikeReference",
                 "bullets": [
                     "DNDRulesActionUnarmedStrikeBullet1",
-                    "DNDRulesActionUnarmedStrikeBullet2",
-                    "DNDRulesActionUnarmedStrikeBullet3"
+                    "DNDRulesActionUnarmedStrikeBullet2"
                 ]
             },
             {
