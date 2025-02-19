@@ -3,6 +3,10 @@ Adds a customizable menu that displays a Quick Reference to the various D&D rule
 
 https://github.com/user-attachments/assets/ba542673-8eed-4211-a270-2204b05db120
 
+## How to
+You can select which tab in the sidebar to display the Quick Reference button, or launch it via a macro in the shortcut bar: 
+**window.DnDQuickReference.open();**
+
 ---
 
 ## About Request
