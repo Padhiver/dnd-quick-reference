@@ -1,0 +1,13 @@
+<div class="rule-details">
+    <h2>{{title}}</h2>
+    <div class="rule-description">{{description}}</div>
+    <ul class="rule-bullets">
+        {{#each bullets}}
+        <li>{{{this}}}</li>
+        {{#unless @last}}
+        <hr>{{/unless}}
+        {{/each}}
+    </ul>
+    <hr class="ampersand">
+    <div class="rule-reference" style="text-align: right;">{{reference}}</div>
+</div>

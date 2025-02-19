@@ -1,0 +1,225 @@
+.dnd-quickreference-container {
+    padding: 1rem;
+}
+
+.dnd-quickreference .window-header {
+    flex-wrap: nowrap;
+    background: transparent;
+    /* Fond transparent pour hériter du parent */
+    position: relative;
+    z-index: 1;
+    border: none;
+    align-items: center;
+    padding: 10px;
+    /* Ajoutez un peu de padding pour l'esthétique */
+    color: black;
+}
+
+.dnd-quickreference .window-content {
+    background: transparent;
+    /* Fond transparent pour hériter du parent */
+    padding: 10px;
+    /* Ajoutez un peu de padding pour l'esthétique */
+}
+.dnd-quickreference  {
+    border: var(--dnd5e-border-gold);
+    background: url(./assets/texture-gray1.webp) no-repeat top left,
+        url(./assets/texture-gray2.webp) no-repeat bottom right,
+        var(--dnd5e-color-parchment);
+}
+
+
+.category {
+    margin-bottom: 2rem;
+}
+
+.category-description {
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.rules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.rule-card {
+    padding: 0.75rem;
+    border-radius: 4px;
+    background: var(--dnd5e-background-card);
+    box-shadow: 0 0 6px var(--dnd5e-shadow-45);
+    border: var(--dnd5e-border-gold);
+    cursor: pointer;
+    color: black;
+    transition: transform 0.2sease, box-shadow 0.2sease;
+}
+
+.rule-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.rule-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.rule-icon {
+    font-size: 1.5rem;
+    color: #4a5568;
+    min-width: 24px;
+    margin-top: 0.25rem;
+}
+
+.rule-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+}
+
+.rule-title {
+    font-weight: 600;
+    color: #2d3748;
+    line-height: 1.2;
+}
+
+.rule-subtitle {
+    color: #718096;
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+.subcategory-separator {
+    color: #4a5568;
+    font-size: 1.1em;
+    margin: 1.5rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+
+.category-title {
+    font-size: var(--font-size-32);
+    font-family: var(--dnd5e-font-modesto);
+    font-weight: bold;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-extra-text {
+    font-size: 0.7em;
+    color: gray;
+    text-align: right;
+}
+
+.dnd-quickref-dialog {
+    border: var(--dnd5e-border-gold);
+    background: url(./assets/texture-gray1.webp) no-repeat top left,
+        url(./assets/texture-gray2.webp) no-repeat bottom right,
+        var(--dnd5e-color-parchment);
+}
+
+.dnd-quickref-dialog h2 {
+    text-align: center;
+    font-size: var(--font-size-32);
+    font-family: var(--dnd5e-font-modesto);
+    font-weight: bold;
+    border: none;
+    text-align: left;
+}
+
+.dnd-quickref-dialog img {
+    border: none;
+}
+
+.dnd-quickref-dialog .window-header {
+    flex-wrap: nowrap;
+    background: transparent;
+    /* Fond transparent pour hériter du parent */
+    position: relative;
+    z-index: 1;
+    border: none;
+    align-items: center;
+    padding: 10px;
+    /* Ajoutez un peu de padding pour l'esthétique */
+    color: black;
+}
+
+.dnd-quickref-dialog .window-content {
+    background: transparent;
+    /* Fond transparent pour hériter du parent */
+    padding: 10px;
+    /* Ajoutez un peu de padding pour l'esthétique */
+}
+
+
+.dnd-quickref-dialog button.preset {
+    border-radius: 4px;
+    background: var(--dnd5e-background-card);
+    box-shadow: 0 0 6px var(--dnd5e-shadow-45);
+    border: var(--dnd5e-border-gold);
+    cursor: pointer;
+    color: black;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dnd-quickref-dialog hr {
+    margin-block: 5px;
+    border: none;
+    height: 1px; /* Épaisseur du trait */
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--dnd5e-color-gold),
+        transparent
+    );
+}
+
+
+/* Styles spécifiques pour le hr avec la classe ampersand */
+.dnd-quickref-dialog hr.ampersand {
+    position: relative;
+    height: 20px;
+    background: url('./assets/ampersand-gold.svg') no-repeat center / contain;
+    margin: 0;
+    margin-bottom: -4px;
+}
+
+/* Pseudo-éléments pour créer les lignes graduées de chaque côté */
+.dnd-quickref-dialog hr.ampersand::before,
+.dnd-quickref-dialog hr.ampersand::after {
+    content: "";
+    position: absolute;
+    inset-block: 9.5px;
+    inset-inline: 0;
+}
+
+.dnd-quickref-dialog hr.ampersand::before {
+    background: linear-gradient(to left, var(--dnd5e-color-gold), transparent);
+    inset-inline-end: calc(50% + 14px);
+}
+
+.dnd-quickref-dialog hr.ampersand::after {
+    background: linear-gradient(to right, var(--dnd5e-color-gold), transparent);
+    inset-inline-start: calc(50% + 14px);
+}
+
+
+.dnd-quickreference .search-container {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dnd-quickreference .search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}

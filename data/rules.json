@@ -1,0 +1,1096 @@
+{
+    "movement": {
+        "description": "DNDQuickReferenceCategoriesMovementDescription",
+        "rules": [
+            {
+                "id": "move",
+                "icon": "fa-solid fa-person-walking",
+                "title": "DNDRulesMovementMoveTitle",
+                "subtitle": "DNDRulesMovementMoveSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementMoveDescription",
+                "reference": "DNDRulesMovementMoveReference",
+                "bullets": [
+                    "DNDRulesMovementMoveBullet1",
+                    "DNDRulesMovementMoveBullet2",
+                    "DNDRulesMovementMoveBullet3",
+                    "DNDRulesMovementMoveBullet4"
+                ]
+            },
+            {
+                "id": "climb",
+                "icon": "fa-solid fa-mountain",
+                "title": "DNDRulesMovementClimbTitle",
+                "subtitle": "DNDRulesMovementClimbSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementClimbDescription",
+                "reference": "DNDRulesMovementClimbReference",
+                "bullets": [
+                    "DNDRulesMovementClimbBullet1"
+                ]
+            },
+            {
+                "id": "swim",
+                "icon": "fa-solid fa-person-swimming",
+                "title": "DNDRulesMovementSwimTitle",
+                "subtitle": "DNDRulesMovementSwimSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementSwimDescription",
+                "reference": "DNDRulesMovementSwimReference",
+                "bullets": [
+                    "DNDRulesMovementSwimBullet1",
+                    "DNDRulesMovementSwimBullet2"
+                ]
+            },
+            {
+                "id": "drop-prone",
+                "icon": "fa-solid fa-person-falling-burst",
+                "title": "DNDRulesMovementDropProneTitle",
+                "subtitle": "DNDRulesMovementDropProneSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementDropProneDescription",
+                "reference": "DNDRulesMovementDropProneReference",
+                "bullets": [
+                    "DNDRulesMovementDropProneBullet1",
+                    "DNDRulesMovementDropProneBullet2",
+                    "DNDRulesMovementDropProneBullet3"
+                ]
+            },
+            {
+                "id": "crawl",
+                "icon": "fa-solid fa-person-praying",
+                "title": "DNDRulesMovementCrawlTitle",
+                "subtitle": "DNDRulesMovementCrawlSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementCrawlDescription",
+                "reference": "DNDRulesMovementCrawlReference",
+                "bullets": [
+                    "DNDRulesMovementCrawlBullet1"
+                ]
+            },
+            {
+                "id": "stand-up",
+                "icon": "fa-solid fa-person-arrow-up-from-line",
+                "title": "DNDRulesMovementStandUpTitle",
+                "subtitle": "DNDRulesMovementStandUpSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementStandUpDescription",
+                "reference": "DNDRulesMovementStandUpReference",
+                "bullets": [
+                    "DNDRulesMovementStandUpBullet1"
+                ]
+            },
+            {
+                "id": "high-jump",
+                "icon": "fa-solid fa-person-running-fast",
+                "title": "DNDRulesMovementHighJumpTitle",
+                "subtitle": "DNDRulesMovementHighJumpSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementHighJumpDescription",
+                "reference": "DNDRulesMovementHighJumpReference",
+                "bullets": [
+                    "DNDRulesMovementHighJumpBullet1",
+                    "DNDRulesMovementHighJumpBullet2",
+                    "DNDRulesMovementHighJumpBullet3",
+                    "DNDRulesMovementHighJumpBullet4"
+                ]
+            },
+            {
+                "id": "long-jump",
+                "icon": "fa-solid fa-person-ski-jumping",
+                "title": "DNDRulesMovementLongJumpTitle",
+                "subtitle": "DNDRulesMovementLongJumpSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementLongJumpDescription",
+                "reference": "DNDRulesMovementLongJumpReference",
+                "bullets": [
+                    "DNDRulesMovementLongJumpBullet1",
+                    "DNDRulesMovementLongJumpBullet2",
+                    "DNDRulesMovementLongJumpBullet3",
+                    "DNDRulesMovementLongJumpBullet4"
+                ]
+            },
+            {
+                "id": "improvise",
+                "icon": "fa-solid fa-person",
+                "title": "DNDRulesMovementImproviseTitle",
+                "subtitle": "DNDRulesMovementImproviseSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementImproviseDescription",
+                "reference": "DNDRulesMovementImproviseReference",
+                "bullets": [
+                    "DNDRulesMovementImproviseBullet1"
+                ]
+            },
+            {
+                "id": "difficult-terrain",
+                "icon": "fa-solid fa-trees",
+                "title": "DNDRulesMovementDifficultTerrainTitle",
+                "subtitle": "DNDRulesMovementDifficultTerrainSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementDifficultTerrainDescription",
+                "reference": "DNDRulesMovementDifficultTerrainReference",
+                "bullets": [
+                    "DNDRulesMovementDifficultTerrainBullet1",
+                    "DNDRulesMovementDifficultTerrainBullet2"
+                ]
+            },
+            {
+                "id": "grapple-move",
+                "icon": "fa-solid fa-people-pulling",
+                "title": "DNDRulesMovementGrappleMoveTitle",
+                "subtitle": "DNDRulesMovementGrappleMoveSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementGrappleMoveDescription",
+                "reference": "DNDRulesMovementGrappleMoveReference",
+                "bullets": [
+                    "DNDRulesMovementGrappleMoveBullet1"
+                ]
+            },
+            {
+                "id": "travel-pace",
+                "icon": "fa-solid fa-person-hiking",
+                "title": "DNDRulesMovementTravelPaceTitle",
+                "subtitle": "DNDRulesMovementTravelPaceSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesMovementTravelPaceDescription",
+                "reference": "DNDRulesMovementTravelPaceReference",
+                "bullets": [
+                    "DNDRulesMovementTravelPaceBullet1",
+                    "DNDRulesMovementTravelPaceBullet2",
+                    "DNDRulesMovementTravelPaceBullet3",
+                    "DNDRulesMovementTravelPaceBullet4",
+                    "DNDRulesMovementTravelPaceBullet5",
+                    "DNDRulesMovementTravelPaceBullet6"
+                ]
+            }
+        ]
+    },
+    "action": {
+        "description": "DNDQuickReferenceCategoriesActionDescription",
+        "rules": [
+            {
+                "id": "attack",
+                "icon": "fa-solid fa-axe-battle",
+                "title": "DNDRulesActionAttackTitle",
+                "subtitle": "DNDRulesActionAttackSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionAttackDescription",
+                "reference": "DNDRulesActionAttackReference",
+                "bullets": [
+                    "DNDRulesActionAttackBullet1",
+                    "DNDRulesActionAttackBullet2",
+                    "DNDRulesActionAttackBullet3"
+                ]
+            },
+            {
+                "id": "unarmed_strike",
+                "icon": "fa-solid fa-hand-fist",
+                "title": "DNDRulesActionUnarmedStrikeTitle",
+                "subtitle": "DNDRulesActionUnarmedStrikeSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionUnarmedStrikeDescription",
+                "reference": "DNDRulesActionUnarmedStrikeReference",
+                "bullets": [
+                    "DNDRulesActionUnarmedStrikeBullet1",
+                    "DNDRulesActionUnarmedStrikeBullet2",
+                    "DNDRulesActionUnarmedStrikeBullet3"
+                ]
+            },
+            {
+                "id": "grapple",
+                "icon": "fa-solid fa-hand",
+                "title": "DNDRulesActionGrappleTitle",
+                "subtitle": "DNDRulesActionGrappleSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionGrappleDescription",
+                "reference": "DNDRulesActionGrappleReference",
+                "bullets": [
+                    "DNDRulesActionGrappleBullet1",
+                    "DNDRulesActionGrappleBullet2",
+                    "DNDRulesActionGrappleBullet3"
+                ]
+            },
+            {
+                "id": "shove",
+                "icon": "fa-solid fa-people-robbery",
+                "title": "DNDRulesActionShoveTitle",
+                "subtitle": "DNDRulesActionShoveSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionShoveDescription",
+                "reference": "DNDRulesActionShoveReference",
+                "bullets": [
+                    "DNDRulesActionShoveBullet1",
+                    "DNDRulesActionShoveBullet2",
+                    "DNDRulesActionShoveBullet3",
+                    "DNDRulesActionShoveBullet4",
+                    "DNDRulesActionShoveBullet5",
+                    "DNDRulesActionShoveBullet6"
+                ]
+            },
+            {
+                "id": "magic",
+                "icon": "fa-solid fa-wand-magic-sparkles",
+                "title": "DNDRulesActionMagicTitle",
+                "subtitle": "DNDRulesActionMagicSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionMagicDescription",
+                "reference": "DNDRulesActionMagicReference",
+                "bullets": [
+                    "DNDRulesActionMagicBullet1",
+                    "DNDRulesActionMagicBullet2",
+                    "DNDRulesActionMagicBullet3"
+                ]
+            },
+            {
+                "id": "dash",
+                "icon": "fa-solid fa-person-skating",
+                "title": "DNDRulesActionDashTitle",
+                "subtitle": "DNDRulesActionDashSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionDashDescription",
+                "reference": "DNDRulesActionDashReference",
+                "bullets": [
+                    "DNDRulesActionDashBullet1",
+                    "DNDRulesActionDashBullet2"
+                ]
+            },
+            {
+                "id": "disengage",
+                "icon": "fa-solid fa-person-walking-arrow-loop-left",
+                "title": "DNDRulesActionDisengageTitle",
+                "subtitle": "DNDRulesActionDisengageSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionDisengageDescription",
+                "reference": "DNDRulesActionDisengageReference",
+                "bullets": [
+                    "DNDRulesActionDisengageBullet1"
+                ]
+            },
+            {
+                "id": "dodge",
+                "icon": "fa-solid fa-person-burst",
+                "title": "DNDRulesActionDodgeTitle",
+                "subtitle": "DNDRulesActionDodgeSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionDodgeDescription",
+                "reference": "DNDRulesActionDodgeReference",
+                "bullets": [
+                    "DNDRulesActionDodgeBullet1",
+                    "DNDRulesActionDodgeBullet2"
+                ]
+            },
+            {
+                "id": "help",
+                "icon": "fa-solid fa-handshake-angle",
+                "title": "DNDRulesActionHelpTitle",
+                "subtitle": "DNDRulesActionHelpSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionHelpDescription",
+                "reference": "DNDRulesActionHelpReference",
+                "bullets": [
+                    "DNDRulesActionHelpBullet1",
+                    "DNDRulesActionHelpBullet2",
+                    "DNDRulesActionHelpBullet3"
+                ]
+            },
+            {
+                "id": "hide",
+                "icon": "fa-solid fa-face-clouds",
+                "title": "DNDRulesActionHideTitle",
+                "subtitle": "DNDRulesActionHideSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionHideDescription",
+                "reference": "DNDRulesActionHideReference",
+                "bullets": [
+                    "DNDRulesActionHideBullet1",
+                    "DNDRulesActionHideBullet2",
+                    "DNDRulesActionHideBullet3"
+                ]
+            },
+            {
+                "id": "utilize",
+                "icon": "fa-solid fa-hand-holding-box",
+                "title": "DNDRulesActionUtilizeTitle",
+                "subtitle": "DNDRulesActionUtilizeSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionUtilizeDescription",
+                "reference": "DNDRulesActionUtilizeReference",
+                "bullets": [
+                    "DNDRulesActionUtilizeBullet1",
+                    "DNDRulesActionUtilizeBullet2",
+                    "DNDRulesActionUtilizeBullet3"
+                ]
+            },
+            {
+                "id": "search",
+                "icon": "fa-solid fa-magnifying-glass",
+                "title": "DNDRulesActionSearchTitle",
+                "subtitle": "DNDRulesActionSearchSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionSearchDescription",
+                "reference": "DNDRulesActionSearchReference",
+                "bullets": [
+                    "DNDRulesActionSearchBullet1",
+                    "DNDRulesActionSearchBullet2"
+                ]
+            },
+            {
+                "id": "study",
+                "icon": "fa-solid fa-magnifying-glass-arrows-rotate",
+                "title": "DNDRulesActionStudyTitle",
+                "subtitle": "DNDRulesActionStudySubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionStudyDescription",
+                "reference": "DNDRulesActionStudyReference",
+                "bullets": [
+                    "DNDRulesActionStudyBullet1",
+                    "DNDRulesActionStudyBullet2"
+                ]
+            },
+            {
+                "id": "influence",
+                "icon": "fa-solid fa-hands-asl-interpreting",
+                "title": "DNDRulesActionInfluenceTitle",
+                "subtitle": "DNDRulesActionInfluenceSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionInfluenceDescription",
+                "reference": "DNDRulesActionInfluenceReference",
+                "bullets": [
+                    "DNDRulesActionInfluenceBullet1",
+                    "DNDRulesActionInfluenceBullet2",
+                    "DNDRulesActionInfluenceBullet3",
+                    "DNDRulesActionInfluenceBullet4"
+                ]
+            },
+            {
+                "id": "ready",
+                "icon": "fa-solid fa-stopwatch",
+                "title": "DNDRulesActionReadyTitle",
+                "subtitle": "DNDRulesActionReadySubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionReadyDescription",
+                "reference": "DNDRulesActionReadyReference",
+                "bullets": [
+                    "DNDRulesActionReadyBullet1",
+                    "DNDRulesActionReadyBullet2",
+                    "DNDRulesActionReadyBullet3",
+                    "DNDRulesActionReadyBullet4"
+                ]
+            },
+            {
+                "id": "use_class_feature",
+                "icon": "fa-solid fa-user-ninja",
+                "title": "DNDRulesActionUseClassFeatureTitle",
+                "subtitle": "DNDRulesActionUseClassFeatureSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionUseClassFeatureDescription",
+                "reference": "DNDRulesActionUseClassFeatureReference",
+                "bullets": []
+            },
+            {
+                "id": "improvise",
+                "icon": "fa-solid fa-person",
+                "title": "DNDRulesActionImproviseTitle",
+                "subtitle": "DNDRulesActionImproviseSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesActionImproviseDescription",
+                "reference": "DNDRulesActionImproviseReference",
+                "bullets": [
+                    "DNDRulesActionImproviseBullet1"
+                ]
+            },
+            {
+                "id": "disarm",
+                "icon": "fa-solid fa-dagger",
+                "title": "DNDRulesActionDisarmTitle",
+                "subtitle": "DNDRulesActionDisarmSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesActionDisarmDescription",
+                "reference": "DNDRulesActionDisarmReference",
+                "bullets": [
+                    "DNDRulesActionDisarmBullet1",
+                    "DNDRulesActionDisarmBullet2",
+                    "DNDRulesActionDisarmBullet3",
+                    "DNDRulesActionDisarmBullet4",
+                    "DNDRulesActionDisarmBullet5"
+                ]
+            },
+            {
+                "id": "overrun",
+                "icon": "fa-solid fa-shield-virus",
+                "title": "DNDRulesActionOverrunTitle",
+                "subtitle": "DNDRulesActionOverrunSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesActionOverrunDescription",
+                "reference": "DNDRulesActionOverrunReference",
+                "bullets": [
+                    "DNDRulesActionOverrunBullet1",
+                    "DNDRulesActionOverrunBullet2",
+                    "DNDRulesActionOverrunBullet3",
+                    "DNDRulesActionOverrunBullet4"
+                ]
+            },
+            {
+                "id": "tumble",
+                "icon": "fa-solid fa-person-walking-arrow-right",
+                "title": "DNDRulesActionTumbleTitle",
+                "subtitle": "DNDRulesActionTumbleSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesActionTumbleDescription",
+                "reference": "DNDRulesActionTumbleReference",
+                "bullets": [
+                    "DNDRulesActionTumbleBullet1",
+                    "DNDRulesActionTumbleBullet2",
+                    "DNDRulesActionTumbleBullet3"
+                ]
+            },
+            {
+                "id": "mark",
+                "icon": "fa-solid fa-location-dot",
+                "title": "DNDRulesActionMarkTitle",
+                "subtitle": "DNDRulesActionMarkSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesActionMarkDescription",
+                "reference": "DNDRulesActionMarkReference",
+                "bullets": [
+                    "DNDRulesActionMarkBullet1",
+                    "DNDRulesActionMarkBullet2",
+                    "DNDRulesActionMarkBullet3",
+                    "DNDRulesActionMarkBullet4",
+                    "DNDRulesActionMarkBullet5",
+                    "DNDRulesActionMarkBullet6"
+                ]
+            },
+            {
+                "id": "climb_onto_a_bigger_creature",
+                "icon": "fa-solid fa-dinosaur",
+                "title": "DNDRulesActionClimbOntoABiggerCreatureTitle",
+                "subtitle": "DNDRulesActionClimbOntoABiggerCreatureSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesActionClimbOntoABiggerCreatureDescription",
+                "reference": "DNDRulesActionClimbOntoABiggerCreatureReference",
+                "bullets": [
+                    "DNDRulesActionClimbOntoABiggerCreatureBullet1",
+                    "DNDRulesActionClimbOntoABiggerCreatureBullet2",
+                    "DNDRulesActionClimbOntoABiggerCreatureBullet3",
+                    "DNDRulesActionClimbOntoABiggerCreatureBullet4"
+                ]
+            }
+        ],
+        "subcategories": {
+            "conditional": {
+                "description": "DNDQuickReferenceCategoriesActionSubcategoriesConditionalDescription",
+                "rules": [
+                    {
+                        "id": "don-or-doff-a-shield",
+                        "icon": "fa-solid fa-shield-halved",
+                        "title": "DNDRulesConditionalActionDonOrDoffAShieldTitle",
+                        "subtitle": "DNDRulesConditionalActionDonOrDoffAShieldSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesConditionalActionDonOrDoffAShieldDescription",
+                        "reference": "DNDRulesConditionalActionDonOrDoffAShieldReference",
+                        "bullets": [
+                            "DNDRulesConditionalActionDonOrDoffAShieldBullet1"
+                        ]
+                    },
+                    {
+                        "id": "stabilize-a-creature",
+                        "icon": "fa-solid fa-wave-pulse",
+                        "title": "DNDRulesConditionalActionStabilizeACreatureTitle",
+                        "subtitle": "DNDRulesConditionalActionStabilizeACreatureSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesConditionalActionStabilizeACreatureDescription",
+                        "reference": "DNDRulesConditionalActionStabilizeACreatureReference",
+                        "bullets": [
+                            "DNDRulesConditionalActionStabilizeACreatureBullet1",
+                            "DNDRulesConditionalActionStabilizeACreatureBullet2",
+                            "DNDRulesConditionalActionStabilizeACreatureBullet3",
+                            "DNDRulesConditionalActionStabilizeACreatureBullet4"
+                        ]
+                    },
+                    {
+                        "id": "escape-a-grapple",
+                        "icon": "fa-solid fa-people-arrows",
+                        "title": "DNDRulesConditionalActionEscapeAGrappleTitle",
+                        "subtitle": "DNDRulesConditionalActionEscapeAGrappleSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesConditionalActionEscapeAGrappleDescription",
+                        "reference": "DNDRulesConditionalActionEscapeAGrappleReference",
+                        "bullets": [
+                            "DNDRulesConditionalActionEscapeAGrappleBullet1",
+                            "DNDRulesConditionalActionEscapeAGrappleBullet2"
+                        ]
+                    },
+                    {
+                        "id": "identify-a-spell",
+                        "icon": "fa-solid fa-hand-holding-magic",
+                        "title": "DNDRulesConditionalActionIdentifyASpellTitle",
+                        "subtitle": "DNDRulesConditionalActionIdentifyASpellSubtitle",
+                        "rule": "DMG",
+                        "description": "DNDRulesConditionalActionIdentifyASpellDescription",
+                        "reference": "DNDRulesConditionalActionIdentifyASpellReference",
+                        "bullets": [
+                            "DNDRulesConditionalActionIdentifyASpellBullet1",
+                            "DNDRulesConditionalActionIdentifyASpellBullet2",
+                            "DNDRulesConditionalActionIdentifyASpellBullet3"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "actionbonus": {
+        "description": "DNDQuickReferenceCategoriesActionBonusDescription",
+        "rules": [
+            {
+                "id": "two-weapon-fighting",
+                "icon": "fa-solid fa-swords",
+                "title": "DNDRulesBonusActionTwoWeaponFightingTitle",
+                "subtitle": "DNDRulesBonusActionTwoWeaponFightingSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesBonusActionTwoWeaponFightingDescription",
+                "reference": "DNDRulesBonusActionTwoWeaponFightingReference",
+                "bullets": [
+                    "DNDRulesBonusActionTwoWeaponFightingBullet1",
+                    "DNDRulesBonusActionTwoWeaponFightingBullet2",
+                    "DNDRulesBonusActionTwoWeaponFightingBullet3"
+                ]
+            },
+            {
+                "id": "magic",
+                "icon": "fa-solid fa-hand-sparkles",
+                "title": "DNDRulesBonusActionMagicTitle",
+                "subtitle": "DNDRulesBonusActionMagicSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesBonusActionMagicDescription",
+                "reference": "DNDRulesBonusActionMagicReference",
+                "bullets": [
+                    "DNDRulesBonusActionMagicBullet1",
+                    "DNDRulesBonusActionMagicBullet2"
+                ]
+            },
+            {
+                "id": "use-class-feature",
+                "icon": "fa-solid fa-user-ninja",
+                "title": "DNDRulesBonusActionUseClassFeatureTitle",
+                "subtitle": "DNDRulesBonusActionUseClassFeatureSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesBonusActionUseClassFeatureDescription",
+                "reference": "DNDRulesBonusActionUseClassFeatureReference",
+                "bullets": []
+            },
+            {
+                "id": "overrun",
+                "icon": "fa-solid fa-shield-virus",
+                "title": "DNDRulesBonusActionOverrunTitle",
+                "subtitle": "DNDRulesBonusActionOverrunSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesBonusActionOverrunDescription",
+                "reference": "DNDRulesBonusActionOverrunReference",
+                "bullets": [
+                    "DNDRulesBonusActionOverrunBullet1",
+                    "DNDRulesBonusActionOverrunBullet2",
+                    "DNDRulesBonusActionOverrunBullet3",
+                    "DNDRulesBonusActionOverrunBullet4"
+                ]
+            },
+            {
+                "id": "tumble",
+                "icon": "fa-solid fa-person-walking-arrow-right",
+                "title": "DNDRulesBonusActionTumbleTitle",
+                "subtitle": "DNDRulesBonusActionTumbleSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesBonusActionTumbleDescription",
+                "reference": "DNDRulesBonusActionTumbleReference",
+                "bullets": [
+                    "DNDRulesBonusActionTumbleBullet1",
+                    "DNDRulesBonusActionTumbleBullet2"
+                ]
+            }
+        ]
+    },
+    "reaction": {
+        "description": "DNDQuickReferenceCategoriesReactionDescription",
+        "rules": [
+            {
+                "id": "opportunity-attack",
+                "icon": "fa-solid fa-sword",
+                "title": "DNDRulesReactionOpportunityAttackTitle",
+                "subtitle": "DNDRulesReactionOpportunityAttackSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesReactionOpportunityAttackDescription",
+                "reference": "DNDRulesReactionOpportunityAttackReference",
+                "bullets": [
+                    "DNDRulesReactionOpportunityAttackBullet1",
+                    "DNDRulesReactionOpportunityAttackBullet2",
+                    "DNDRulesReactionOpportunityAttackBullet3"
+                ]
+            },
+            {
+                "id": "readied-action",
+                "icon": "fa-solid fa-stopwatch",
+                "title": "DNDRulesReactionReadiedActionTitle",
+                "subtitle": "DNDRulesReactionReadiedActionSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesReactionReadiedActionDescription",
+                "reference": "DNDRulesReactionReadiedActionReference",
+                "bullets": [
+                    "DNDRulesReactionReadiedActionBullet1"
+                ]
+            },
+            {
+                "id": "cast-a-spell",
+                "icon": "fa-solid fa-hand-sparkles",
+                "title": "DNDRulesReactionCastASpellTitle",
+                "subtitle": "DNDRulesReactionCastASpellSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesReactionCastASpellDescription",
+                "reference": "DNDRulesReactionCastASpellReference",
+                "bullets": [
+                    "DNDRulesReactionCastASpellBullet1",
+                    "DNDRulesReactionCastASpellBullet2"
+                ]
+            },
+            {
+                "id": "identify-a-spell",
+                "icon": "fa-solid fa-hand-holding-magic",
+                "title": "DNDRulesReactionIdentifyASpellTitle",
+                "subtitle": "DNDRulesReactionIdentifyASpellSubtitle",
+                "rule": "DMG",
+                "description": "DNDRulesReactionIdentifyASpellDescription",
+                "reference": "DNDRulesReactionIdentifyASpellReference",
+                "bullets": [
+                    "DNDRulesReactionIdentifyASpellBullet1",
+                    "DNDRulesReactionIdentifyASpellBullet2",
+                    "DNDRulesReactionIdentifyASpellBullet3"
+                ]
+            }
+        ]
+    },
+    "condition": {
+        "description": "DNDQuickReferenceCategoriesConditionDescription",
+        "rules": [
+            {
+                "id": "blinded",
+                "icon": "fa-solid fa-face-hand-peeking",
+                "title": "DNDRulesConditionBlindedTitle",
+                "subtitle": "DNDRulesConditionBlindedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionBlindedDescription",
+                "reference": "DNDRulesConditionBlindedReference",
+                "bullets": [
+                    "DNDRulesConditionBlindedBullet1",
+                    "DNDRulesConditionBlindedBullet2",
+                    "DNDRulesConditionBlindedBullet3"
+                ]
+            },
+            {
+                "id": "charmed",
+                "icon": "fa-solid fa-face-smile-hearts",
+                "title": "DNDRulesConditionCharmedTitle",
+                "subtitle": "DNDRulesConditionCharmedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionCharmedDescription",
+                "reference": "DNDRulesConditionCharmedReference",
+                "bullets": [
+                    "DNDRulesConditionCharmedBullet1",
+                    "DNDRulesConditionCharmedBullet2"
+                ]
+            },
+            {
+                "id": "deafened",
+                "icon": "fa-solid fa-face-tired",
+                "title": "DNDRulesConditionDeafenedTitle",
+                "subtitle": "DNDRulesConditionDeafenedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionDeafenedDescription",
+                "reference": "DNDRulesConditionDeafenedReference",
+                "bullets": [
+                    "DNDRulesConditionDeafenedBullet1"
+                ]
+            },
+            {
+                "id": "exhaustion",
+                "icon": "fa-solid fa-face-tongue-sweat",
+                "title": "DNDRulesConditionExhaustionTitle",
+                "subtitle": "DNDRulesConditionExhaustionSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionExhaustionDescription",
+                "reference": "DNDRulesConditionExhaustionReference",
+                "bullets": [
+                    "DNDRulesConditionExhaustionBullet1",
+                    "DNDRulesConditionExhaustionBullet2",
+                    "DNDRulesConditionExhaustionBullet3"
+                ]
+            },
+            {
+                "id": "frightened",
+                "icon": "fa-solid fa-face-scream",
+                "title": "DNDRulesConditionFrightenedTitle",
+                "subtitle": "DNDRulesConditionFrightenedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionFrightenedDescription",
+                "reference": "DNDRulesConditionFrightenedReference",
+                "bullets": [
+                    "DNDRulesConditionFrightenedBullet1",
+                    "DNDRulesConditionFrightenedBullet2"
+                ]
+            },
+            {
+                "id": "grappled",
+                "icon": "fa-solid fa-face-cowboy-hat",
+                "title": "DNDRulesConditionGrappledTitle",
+                "subtitle": "DNDRulesConditionGrappledSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionGrappledDescription",
+                "reference": "DNDRulesConditionGrappledReference",
+                "bullets": [
+                    "DNDRulesConditionGrappledBullet1",
+                    "DNDRulesConditionGrappledBullet2",
+                    "DNDRulesConditionGrappledBullet3",
+                    "DNDRulesConditionGrappledBullet4"
+                ]
+            },
+            {
+                "id": "incapacitated",
+                "icon": "fa-solid fa-face-head-bandage",
+                "title": "DNDRulesConditionIncapacitatedTitle",
+                "subtitle": "DNDRulesConditionIncapacitatedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionIncapacitatedDescription",
+                "reference": "DNDRulesConditionIncapacitatedReference",
+                "bullets": [
+                    "DNDRulesConditionIncapacitatedBullet1",
+                    "DNDRulesConditionIncapacitatedBullet2",
+                    "DNDRulesConditionIncapacitatedBullet3"
+                ]
+            },
+            {
+                "id": "invisible",
+                "icon": "fa-solid fa-face-dotted",
+                "title": "DNDRulesConditionInvisibleTitle",
+                "subtitle": "DNDRulesConditionInvisibleSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionInvisibleDescription",
+                "reference": "DNDRulesConditionInvisibleReference",
+                "bullets": [
+                    "DNDRulesConditionInvisibleBullet1",
+                    "DNDRulesConditionInvisibleBullet2",
+                    "DNDRulesConditionInvisibleBullet3"
+                ]
+            },
+            {
+                "id": "paralyzed",
+                "icon": "fa-solid fa-face-spiral-eyes",  
+                "title": "DNDRulesConditionParalyzedTitle",
+                "subtitle": "DNDRulesConditionParalyzedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionParalyzedDescription",
+                "bullets": [
+                    "DNDRulesConditionParalyzedBullet1",
+                    "DNDRulesConditionParalyzedBullet2",
+                    "DNDRulesConditionParalyzedBullet3",
+                    "DNDRulesConditionParalyzedBullet4"
+                ]
+            },
+            {
+                "id": "petrified",
+                "icon": "fa-solid fa-face-icicles",
+                "title": "DNDRulesConditionPetrifiedTitle",
+                "subtitle": "DNDRulesConditionPetrifiedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionPetrifiedDescription",
+                "reference": "DNDRulesConditionPetrifiedReference",
+                "bullets": [
+                    "DNDRulesConditionPetrifiedBullet1",
+                    "DNDRulesConditionPetrifiedBullet2",
+                    "DNDRulesConditionPetrifiedBullet3",
+                    "DNDRulesConditionPetrifiedBullet4",
+                    "DNDRulesConditionPetrifiedBullet5",
+                    "DNDRulesConditionPetrifiedBullet6",
+                    "DNDRulesConditionPetrifiedBullet7"
+                ]
+            },
+            {
+                "id": "poisoned",
+                "icon": "fa-solid fa-face-vomit",
+                "title": "DNDRulesConditionPoisonedTitle",
+                "subtitle": "DNDRulesConditionPoisonedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionPoisonedDescription",
+                "reference": "DNDRulesConditionPoisonedReference",
+                "bullets": [
+                    "DNDRulesConditionPoisonedBullet1"
+                ]
+            },
+            {
+                "id": "prone",
+                "icon": "fa-solid fa-face-melting",
+                "title": "DNDRulesConditionProneTitle",
+                "subtitle": "DNDRulesConditionProneSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionProneDescription",
+                "reference": "DNDRulesConditionProneReference",
+                "bullets": [
+                    "DNDRulesConditionProneBullet1",
+                    "DNDRulesConditionProneBullet2",
+                    "DNDRulesConditionProneBullet3"
+                ]
+            },
+            {
+                "id": "restrained",
+                "icon": "fa-solid fa-face-viewfinder",
+                "title": "DNDRulesConditionRestrainedTitle",
+                "subtitle": "DNDRulesConditionRestrainedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionRestrainedDescription",
+                "reference": "DNDRulesConditionRestrainedReference",
+                "bullets": [
+                    "DNDRulesConditionRestrainedBullet1",
+                    "DNDRulesConditionRestrainedBullet2",
+                    "DNDRulesConditionRestrainedBullet3",
+                    "DNDRulesConditionRestrainedBullet4"
+                ]
+            },
+            {
+                "id": "stunned",
+                "icon": "fa-solid fa-face-woozy",
+                "title": "DNDRulesConditionStunnedTitle",
+                "subtitle": "DNDRulesConditionStunnedSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionStunnedDescription",
+                "reference": "DNDRulesConditionStunnedReference",
+                "bullets": [
+                    "DNDRulesConditionStunnedBullet1",
+                    "DNDRulesConditionStunnedBullet2",
+                    "DNDRulesConditionStunnedBullet3"
+                ]
+            },
+            {
+                "id": "unconscious",
+                "icon": "fa-solid fa-face-eyes-xmarks",
+                "title": "DNDRulesConditionUnconsciousTitle",
+                "subtitle": "DNDRulesConditionUnconsciousSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionUnconsciousDescription",
+                "reference": "DNDRulesConditionUnconsciousReference",
+                "bullets": [
+                    "DNDRulesConditionUnconsciousBullet1",
+                    "DNDRulesConditionUnconsciousBullet2",
+                    "DNDRulesConditionUnconsciousBullet3",
+                    "DNDRulesConditionUnconsciousBullet4",
+                    "DNDRulesConditionUnconsciousBullet5"
+                ]
+            },
+            {
+                "id": "dying",
+                "icon": "fa-solid fa-skull",
+                "title": "DNDRulesConditionDyingTitle",
+                "subtitle": "DNDRulesConditionDyingSubtitle",
+                "rule": "PHB",
+                "description": "DNDRulesConditionDyingDescription",
+                "reference": "DNDRulesConditionDyingReference",
+                "bullets": [
+                    "DNDRulesConditionDyingBullet1",
+                    "DNDRulesConditionDyingBullet2",
+                    "DNDRulesConditionDyingBullet3",
+                    "DNDRulesConditionDyingBullet4",
+                    "DNDRulesConditionDyingBullet5",
+                    "DNDRulesConditionDyingBullet6",
+                    "DNDRulesConditionDyingBullet7",
+                    "DNDRulesConditionDyingBullet8",
+                    "DNDRulesConditionDyingBullet9",
+                    "DNDRulesConditionDyingBullet10"
+                ]
+            }
+        ]
+    },
+    "environment": {
+        "description": "",
+        "subcategories": {
+            "obscurance": {
+                "description": "DNDQuickReferenceCategoriesenvironmentSubcategoriesobscuranceDescription",
+                "rules": [
+                    {
+                        "id": "lightly_obscured",
+                        "icon": "fa-solid fa-sun-bright",
+                        "title": "DNDRulesEnvironmentObscuranceLightlyObscuredTitle",
+                        "subtitle": "DNDRulesEnvironmentObscuranceLightlyObscuredSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentObscuranceLightlyObscuredDescription",
+                        "reference": "DNDRulesEnvironmentObscuranceLightlyObscuredReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentObscuranceLightlyObscuredBullet1"
+                        ]
+                    },
+                    {
+                        "id": "heavily_obscured",
+                        "icon": "fa-solid fa-cloud-moon",
+                        "title": "DNDRulesEnvironmentObscuranceHeavilyObscuredTitle",
+                        "subtitle": "DNDRulesEnvironmentObscuranceHeavilyObscuredSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentObscuranceHeavilyObscuredDescription",
+                        "reference": "DNDRulesEnvironmentObscuranceHeavilyObscuredReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentObscuranceHeavilyObscuredBullet1"
+                        ]
+                    }
+                ]
+            },
+            "light": {
+                "description": "DNDQuickReferenceCategoriesEnvironmentSubcategorieslightDescription",
+                "rules": [
+                    {
+                        "id": "bright_light",
+                        "icon": "fa-solid fa-sun",
+                        "title": "DNDRulesEnvironmentLightBrightLightTitle",
+                        "subtitle": "DNDRulesEnvironmentLightBrightLightSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentLightBrightLightDescription",
+                        "reference": "DNDRulesEnvironmentLightBrightLightReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentLightBrightLightBullet1"
+                        ]
+                    },
+                    {
+                        "id": "dim_light",
+                        "icon": "fa-solid fa-sun-dust",
+                        "title": "DNDRulesEnvironmentLightDimLightTitle",
+                        "subtitle": "DNDRulesEnvironmentLightDimLightSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentLightDimLightDescription",
+                        "reference": "DNDRulesEnvironmentLightDimLightReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentLightDimLightBullet1",
+                            "DNDRulesEnvironmentLightDimLightBullet2",
+                            "DNDRulesEnvironmentLightDimLightBullet3"
+                        ]
+                    },
+                    {
+                        "id": "darkness",
+                        "icon": "fa-solid fa-moon",
+                        "title": "DNDRulesEnvironmentLightDarknessTitle",
+                        "subtitle": "DNDRulesEnvironmentLightDarknessSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentLightDarknessDescription",
+                        "reference": "DNDRulesEnvironmentLightDarknessReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentLightDarknessBullet1",
+                            "DNDRulesEnvironmentLightDarknessBullet2"
+                        ]
+                    }
+                ]
+            },
+            "vision": {
+                "description": "DNDQuickReferenceCategoriesEnvironmentSubcategoriesvisionDescription",
+                "rules": [
+                    {
+                        "id": "blindsight",
+                        "icon": "fa-solid fa-eye-slash",
+                        "title": "DNDRulesEnvironmentVisionBlindsightTitle",
+                        "subtitle": "DNDRulesEnvironmentVisionBlindsightSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentVisionBlindsightDescription",
+                        "reference": "DNDRulesEnvironmentVisionBlindsightReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentVisionBlindsightBullet1",
+                            "DNDRulesEnvironmentVisionBlindsightBullet2",
+                            "DNDRulesEnvironmentVisionBlindsightBullet3"
+
+                        ]
+                    },
+                    {
+                        "id": "darkvision",
+                        "icon": "fa-solid fa-eye",
+                        "title": "DNDRulesEnvironmentVisionDarkvisionTitle",
+                        "subtitle": "DNDRulesEnvironmentVisionDarkvisionSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentVisionDarkvisionDescription",
+                        "reference": "DNDRulesEnvironmentVisionDarkvisionReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentVisionDarkvisionBullet1",
+                            "DNDRulesEnvironmentVisionDarkvisionBullet2",
+                            "DNDRulesEnvironmentVisionDarkvisionBullet3"
+                        ]
+                    },
+                    {
+                        "id": "tremorsens",
+                        "icon": "fa-solid fa-eye-evil",
+                        "title": "DNDRulesEnvironmentVisionTremorsenseTitle",
+                        "subtitle": "DNDRulesEnvironmentVisionTremorsenseSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentVisionTremorsenseDescription",
+                        "reference": "DNDRulesEnvironmentVisionTremorsenseReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentVisionTremorsenseBullet1",
+                            "DNDRulesEnvironmentVisionTremorsenseBullet2"
+                        ]
+                    },
+                    {
+                        "id": "truesight",
+                        "icon": "fa-solid fa-eye-low-vision",
+                        "title": "DNDRulesEnvironmentVisionTruesightTitle",
+                        "subtitle": "DNDRulesEnvironmentVisionTruesightSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentVisionTruesightDescription",
+                        "reference": "DNDRulesEnvironmentVisionTruesightReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentVisionTruesightBullet1",
+                            "DNDRulesEnvironmentVisionTruesightBullet2",
+                            "DNDRulesEnvironmentVisionTruesightBullet3",
+                            "DNDRulesEnvironmentVisionTruesightBullet4",
+                            "DNDRulesEnvironmentVisionTruesightBullet5"
+                        ]
+                    }
+                ]
+            },
+            "cover": {
+                "description": "DNDQuickReferenceCategoriesEnvironmentSubcategoriescoverDescription",
+                "rules": [
+                    {
+                        "id": "half_cover",
+                        "icon": "fa-solid fa-shield-halved",
+                        "title": "DNDRulesEnvironmentCoverHalfCoverTitle",
+                        "subtitle": "DNDRulesEnvironmentCoverHalfCoverSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentCoverHalfCoverDescription",
+                        "reference": "DNDRulesEnvironmentCoverHalfCoverReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentCoverHalfCoverBullet1",
+                            "DNDRulesEnvironmentCoverHalfCoverBullet2",
+                            "DNDRulesEnvironmentCoverHalfCoverBullet3"
+                        ]
+                    },
+                    {
+                        "id": "three_quarters_cover",
+                        "icon": "fa-solid fa-shield-quartered",
+                        "title": "DNDRulesEnvironmentCoverThreeQuartersCoverTitle",
+                        "subtitle": "DNDRulesEnvironmentCoverThreeQuartersCoverSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentCoverThreeQuartersCoverDescription",
+                        "reference": "DNDRulesEnvironmentCoverThreeQuartersCoverReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentCoverThreeQuartersCoverBullet1",
+                            "DNDRulesEnvironmentCoverThreeQuartersCoverBullet2",
+                            "DNDRulesEnvironmentCoverThreeQuartersCoverBullet3"
+                        ]
+                    },
+                    {
+                        "id": "full_cover",
+                        "icon": "fa-solid fa-shield",
+                        "title": "DNDRulesEnvironmentCoverFullCoverTitle",
+                        "subtitle": "DNDRulesEnvironmentCoverFullCoverSubtitle",
+                        "rule": "PHB",
+                        "description": "DNDRulesEnvironmentCoverFullCoverDescription",
+                        "reference": "DNDRulesEnvironmentCoverFullCoverReference",
+                        "bullets": [
+                            "DNDRulesEnvironmentCoverFullCoverBullet1",
+                            "DNDRulesEnvironmentCoverFullCoverBullet2"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

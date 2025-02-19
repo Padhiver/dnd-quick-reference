@@ -1,0 +1,51 @@
+<div class="dnd-quickreference-container custom-main-window">
+    {{#each categories}}
+    <div class="category category-{{id}}" data-category-id="{{id}}">
+        <h2 class="category-title">
+            {{title}}
+            <span class="category-extra-text">{{localize (concat "DNDQuickReferenceExtraText" id)}}</span>
+        </h2>
+        <div class="category-description">{{description}}</div>
+
+        {{#if rules}}
+        <div class="rules-grid">
+            {{#each rules}}
+            <div class="rule-card" data-rule-id="{{id}}">
+                <div class="rule-content">
+                    <i class="{{icon}} rule-icon"></i>
+                    <div class="rule-text">
+                        <span class="rule-title">{{title}}</span>
+                        <span class="rule-subtitle">{{subtitle}}</span>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        {{/if}}
+
+        {{#if subcategories}}
+        {{#each subcategories}}
+        <div class="subcategory" data-subcategory-id="{{id}}">
+            {{#if description}}
+            <div class="subcategory-separator">{{description}}</div>
+            {{/if}}
+
+            <div class="rules-grid">
+                {{#each rules}}
+                <div class="rule-card" data-rule-id="{{id}}">
+                    <div class="rule-content">
+                        <i class="{{icon}} rule-icon"></i>
+                        <div class="rule-text">
+                            <span class="rule-title">{{title}}</span>
+                            <span class="rule-subtitle">{{subtitle}}</span>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        {{/each}}
+        {{/if}}
+    </div>
+    {{/each}}
+</div>
