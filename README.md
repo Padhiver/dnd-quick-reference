@@ -8,6 +8,7 @@ You can select which tab in the sidebar to display the Quick Reference button, o
 **window.DnDQuickReference.open();**
 
 ---
+## If anyone would like to make it a PR AppV2, don't hesitate
 
 ## About Request
 I'm open to requests if you think other references or other things would be useful in the menu, but I'm not a programmer, it's all just tinkering, so it'll depend on the difficulty!
